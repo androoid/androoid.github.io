@@ -93,23 +93,23 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #17baef;
+  background: #65BC5B;
   color: #fff;
   position: fixed;
   width: 100%;
 }
 .header.navbar-fixed-top {
-  background: #fff;
+  background: #65BC5B;
   z-index: 9999;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 .header.navbar-fixed-top .logo a {
-  color: #17baef;
+  color: #fff;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
-  color: #666666;
+  color: #fff;
 }
 .header .logo {
   margin: 0;
@@ -149,11 +149,11 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #fff;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -181,13 +181,22 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  background: #65BC5B;
+  background-image: url(../images/banner_desenfocado.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   color: #fff;
   padding-top: 150px;
 }
+
+.roo{
+  color: #65BC5B;
+}
+
 .promo .title {
   font-size: 98px;
-  color: #074f66;
+  color: #ffffff;
   margin-top: 0;
 }
 .promo .title .highlight {
@@ -207,19 +216,19 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: #0a7396;
+  color: #ffffff;
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: #0a7396;
+  color: #ffffff;
 }
 .promo .meta a:hover {
-  color: #074f66;
+  color: #ffffff;
 }
 .promo .social-media {
-  background: #0c86ae;
+  background: #65BC5B;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -236,8 +245,10 @@ pre code {
   padding: 80px 0;
   background: #f5f5f5;
 }
+
+
 .about .title {
-  color: #074f66;
+  color: #212121;
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -257,36 +268,37 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: #074f66;
+  color: #212121;
 }
 .about .item .content {
   padding-left: 60px;
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: #074f66;
+  color: #212121;
   font-size: 18px;
 }
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
-  background: #17baef;
+  background: #65BC5B;
+  background-image: url(../images/features_background.jpg);
   color: #fff;
 }
 .features .title {
-  color: #074f66;
+  color: #ffffff;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .features a {
-  color: #074f66;
+  color: #ffffff;
 }
 .features a:hover {
-  color: #042a36;
+  color: #fff;
 }
 .features .feature-list li {
   margin-bottom: 10px;
-  color: #074f66;
+  color: #fff;
 }
 .features .feature-list li .fa {
   margin-right: 5px;
