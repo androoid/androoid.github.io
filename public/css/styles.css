@@ -282,7 +282,8 @@ pre code {
 .features {
   padding: 80px 0;
   background: #65BC5B;
-  background-image: url(../images/features_background.jpg);
+  background-image: url(../images/banner2_desenfocado.jpg);
+  background-position: bottom;
   color: #fff;
 }
 .features .title {
@@ -425,7 +426,9 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: #17baef;
+  background: #65BC5B;
+  background-image: url(../images/contact_background.jpg);
+  background-position: center;
   color: #fff;
 }
 .contact .contact-inner {
@@ -433,7 +436,7 @@ pre code {
   margin: 0 auto;
 }
 .contact .title {
-  color: #074f66;
+  color: #fff;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -469,7 +472,7 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: #10b2e7;
+  background: #65BC5B;
   color: #074f66;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -501,7 +504,7 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #10b2e7;
+  border-right: 10px solid #65BC5B;
 }
 .contact .author-message .speech-bubble .source {
   margin-top: 30px;
@@ -513,7 +516,7 @@ pre code {
   color: #0c86ae;
 }
 .contact .info .sub-title {
-  color: #0e98c5;
+  color: #fff;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -532,7 +535,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: #0c86ae;
+  background: #65BC5B;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -562,7 +565,7 @@ pre code {
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
-  background: #042a36;
+  background: #65BC5B;
   color: #fff;
 }
 .footer .copyright {
